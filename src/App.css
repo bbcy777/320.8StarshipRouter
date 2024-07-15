@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+
+  padding: 0 2rem;
+  text-align: center;
+  color: rgb(44, 38, 38);
+  font: 1em sans-serif;
+}
+
+h3 {
+  width: 100vw;
+  background-color: #242424;
+  height: 50px;
+  margin-top: 0;
+  color: whitesmoke;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box {
+  display: flex;
+  margin: 10px;
+  background-color: rgb(6, 98, 67);
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 100px;
+  color: whitesmoke;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+a {
+  color: rgb(240, 237, 233);
+  text-decoration: none;
+}
+/* .card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
